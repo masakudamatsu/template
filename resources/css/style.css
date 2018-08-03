@@ -15,6 +15,17 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+/* Make images scale in proportion to the screen width (https://www.codecademy.com/courses/learn-responsive-design/lessons/sizing-elements/exercises/scaling-img-video) */
+figure {
+  overflow: hidden; /* Control the image size by the box size of the figure */
+}
+
+figure img {
+  max-width: 100%; /* Control the image size by the box size of the figure */
+  height: auto;
+  display: block; /* Prevent images from aligning with other contents */
+}
+
 /* Tablets (480px is the widest mobile device, according to https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/screen-sizes.png) */
 @media only screen and (min-width: 480px) {
 
