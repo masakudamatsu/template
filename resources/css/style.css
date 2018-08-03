@@ -3,6 +3,10 @@ html {
   font-size: 16px;
 }
 
+/* Base font family (if set for html, Bootstrap will override it!) */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
 
 /* Tablets (480px is the widest mobile device, according to https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/screen-sizes.png) */
 @media only screen and (min-width: 480px) {
