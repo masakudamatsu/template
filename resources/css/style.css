@@ -1,3 +1,10 @@
+/* Make the box size include border width and padding (https://css-tricks.com/box-sizing/) */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
 /* Base font size to which the rem refers to (https://learnui.design/blog/mobile-desktop-website-font-size-guidelines.html) */
 html {
   font-size: 16px;
