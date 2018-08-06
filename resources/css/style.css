@@ -1,7 +1,7 @@
 /* Make the box size include border width and padding (https://css-tricks.com/box-sizing/) */
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
