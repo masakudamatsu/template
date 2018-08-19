@@ -1,2 +1,1 @@
-# template
-Template code for making a website
+An expanded boilerplate HTML/CSS/JavaScript code that incorporates the best practices in web development
