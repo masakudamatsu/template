@@ -8,6 +8,11 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+/* Center-align the contents */
+.page__inner {
+  margin: 0 auto;
+}
+
 /* Make images scale in proportion to the screen width (https://www.codecademy.com/courses/learn-responsive-design/lessons/sizing-elements/exercises/scaling-img-video) */
 .figure__frame {
   height: ;
