@@ -13,10 +13,14 @@ html {
   margin: 0 auto;
 }
 
-/* Make images scale in proportion to the screen width (https://www.codecademy.com/courses/learn-responsive-design/lessons/sizing-elements/exercises/scaling-img-video) */
+/*
+  Make images scale in proportion to the screen width (https://www.codecademy.com/courses/learn-responsive-design/lessons/sizing-elements/exercises/scaling-img-video)
+  while keeping the image vertically center-aligned (https://stackoverflow.com/questions/5005244/vertical-align-center-image-in-fixed-size-div)
+  */
 .figure__frame {
   height: ;
   overflow: hidden; /* Control the image size by the box size of the figure */
+  position: relative; /* For vertically centering the image #1 */
   width: ;
 }
 
@@ -24,6 +28,12 @@ html {
   display: block; /* Prevent images from aligning with other contents */
   height: auto; /* Preserve the aspect ratio */
   max-width: 100%; /* Control the image size by the box size of the figure */
+  margin: auto; /* For vertically centering the image #2 */
+  position: absolute; /* For vertically centering the image #3 */
+  top: 0; /* For vertically centering the image #4 */
+  bottom: 0; /* For vertically centering the image #5 */
+  left: 0; /* For vertically centering the image #6 */
+  right: 0; /* For vertically centering the image #7 */
 }
 
 /* Tablets (480px is the widest mobile device, according to https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/screen-sizes.png) */
