@@ -9,14 +9,16 @@ body {
 }
 
 /* Make images scale in proportion to the screen width (https://www.codecademy.com/courses/learn-responsive-design/lessons/sizing-elements/exercises/scaling-img-video) */
-figure {
+.figure__frame {
+  height: ;
   overflow: hidden; /* Control the image size by the box size of the figure */
+  width: ;
 }
 
-figure img {
-  max-width: 100%; /* Control the image size by the box size of the figure */
-  height: auto;
+.figure__image {
   display: block; /* Prevent images from aligning with other contents */
+  height: auto; /* Preserve the aspect ratio */
+  max-width: 100%; /* Control the image size by the box size of the figure */
 }
 
 /* Tablets (480px is the widest mobile device, according to https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/screen-sizes.png) */
