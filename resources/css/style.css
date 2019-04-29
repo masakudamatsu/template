@@ -4,7 +4,7 @@ html {
 }
 
 /* Base font family (if set for html, Bootstrap will override it!) */
-body {
+.page {
   font-family: 'Open Sans', sans-serif;
 }
 
