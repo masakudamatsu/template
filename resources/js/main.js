@@ -6,4 +6,6 @@ $(document).ready(function() {
   var $childElement = $('<TAG>' + newText + '</TAG>');
   $parentElement.append($childElement);
   // Here write event handers
+  // For the list of jQuery methods, see http://api.jquery.com/
+
 });
