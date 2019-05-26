@@ -1,6 +1,6 @@
 /* Base font size to which the rem refers to (https://learnui.design/blog/mobile-desktop-website-font-size-guidelines.html) */
 html {
-  font-size: 16px;
+  font-size: 100%; /* See Tim Brown (2018) Flexible Typesetting, Chapter 2 */
 }
 
 /* Base font family (if set for html, Bootstrap will override it!) */
