@@ -37,12 +37,16 @@ html {
 }
 
 /* Tablets (480px is the widest mobile device, according to https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/screen-sizes.png) */
-@media only screen and (min-width: 480px) {
+/* Convert 480px into em by assuming 1em = 16px */
+/* See https://zellwk.com/blog/media-query-units/ for why we should use em in the media query */
+@media only screen and (min-width: 30em) {
 
 }
 
 /* Desktops (1024px is the widest tablet in landscape orientation according to https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/screen-sizes.png) */
-@media only screen and (min-width: 1024px) {
+/* Convert 1024px into em by assuming 1em = 16px */
+/* See https://zellwk.com/blog/media-query-units/ for why we should use em in the media query */
+@media only screen and (min-width: 64em) {
   /* Enlarge the base font size. 21px to follow Medium.com */
   html {
     font-size: 21px;
